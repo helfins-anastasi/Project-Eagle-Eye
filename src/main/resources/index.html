@@ -7,7 +7,8 @@
     </head>
     <body>
         <h1>Hello!</h1>
-        <button onclick="getTwoMovies()">Find A Movie</button>
+        <p id="loading">Loading...</p>
+        <button id="findMovie" hidden onclick="getMovies()">Find A Movie</button>
         <div class="relative">
             <div id="movie1"></div>
             <div id="movie2"></div>
